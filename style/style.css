@@ -1,0 +1,1167 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    width: 1440px;
+    height: 75px;
+    margin: auto;
+    border-top-left-radius: 20px;
+    display: flex;
+}
+
+.home {
+    width: 88px;
+    height: 80px;
+    background-color: #174c50;
+    border-top-left-radius: 20px;
+}
+
+.home img {
+    width: 40px;
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 23px;
+}
+
+.main-search {
+    width: 950px;
+    height: 78px;
+    background-color: white;
+    border: solid 1px #f0f1f4;
+    position: relative;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-inner h1 {
+    font-size: 20px;
+    padding-top: 14px;
+    padding-left: 40px;
+}
+
+.search {
+    position: relative;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    margin-top: 16px;
+    margin-right: 35px;
+    border-radius: 25px;
+    background-color: #f0f5f6;
+    border: none;
+    padding-left: 20px;
+}
+
+img.search {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 965px;
+    margin-top: 29px;
+}
+
+.profile-box {
+    width: 393.5px;
+    height: 78px;
+    border: solid 1px #f0f1f4;
+    border-left: none;
+    border-top-right-radius: 20px;
+    display: flex;
+}
+
+.notification {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #1fc0ca;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 15px;
+}
+
+.notification b {
+    font-weight: 600;
+    margin-left: 6px;
+    color: white;
+    font-size: 14px;
+}
+
+.blank-photo {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: coral;
+    margin-top: 19px;
+    margin-left: 35px;
+}
+
+.blank-photo img {
+    width: 25px;
+    height: 25px;
+    margin-top: 9px;
+    margin-left: 7px;
+}
+
+.blank-photo-1 {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #c7bdbd;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+.blank-photo-1 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 11px;
+}
+
+.profile {
+    margin-left: 60px;
+}
+
+.profile-text {
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.manager {
+    font-weight: normal;
+    margin-left: 49px;
+}
+
+.blank-photo-2 {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #c7bdbd;
+    margin-top: 19px;
+    margin-left: 18px;
+}
+
+.burger-menu {
+    height: 940px;
+    width: 88px;
+    margin-left: 5px;
+    background-color: #023c40;
+    position: absolute;
+    margin-top: 4.5px;
+    border-bottom-left-radius: 20px;
+}
+
+.tool {
+    width: 23px;
+    height: 23px;
+    background-color: #6d989f;
+    margin-top: 48px;
+    margin-left: 33px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tool-2 {
+    width: 23px;
+    height: 23px;
+    background-color: #6d989f;
+    margin-top: 25px;
+    margin-left: 33px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tool-3 {
+    width: 23px;
+    height: 23px;
+    background-color: #023c40;
+    margin-top: 420px;
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+.tool img {
+    width: 18px;
+    height: 18px;
+    margin-top: 2.8px;
+    margin-left: 2.4px;
+}
+
+.tool-2 img {
+    width: 18px;
+    height: 18px;
+    margin-top: 2.8px;
+    margin-left: 2.4px;
+}
+
+.tool-3 img {
+    width: 18px;
+    height: 18px;
+    margin-top: 2.8px;
+    margin-left: 2.4px;
+}
+
+.chat-box {
+    width: 360px;
+    height: 939.5px;
+    border: solid 1px #f0f1f4;
+    margin-left: 93px;
+}
+
+.main-chat-box {
+    width: 360px;
+    height: 92.8px;
+    border: solid 1px #f0f1f4;
+    border-left: none;
+    border-right: none;
+    display: flex;
+}
+
+.main-chat-box button {
+    width: 250px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 20px;
+    background-color: #18c1c8;
+    border: none;
+    color: white;
+    display: flex;
+    cursor: pointer;
+}
+
+img.telega {
+    width: 20px;
+    height: 20px;
+    margin-top: 9px;
+    margin-left: 58px;
+}
+
+.teleg {
+    margin-left: 8px;
+    margin-top: 12px;
+}
+
+.searching {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 18px;
+    border: solid 2px #f3f3f3;
+}
+
+.searching img {
+    width: 17px;
+    height: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.icon-box {
+    width: 360px;
+    height: 70px;
+    border: solid 1px #f0f1f4;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    display: flex;
+}
+
+.icon {
+    margin-top: 25px;
+    margin-left: 38px;
+    display: flex;
+}
+
+.icon img {
+    width: 22px;
+    height: 22px;
+}
+
+.circle {
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+    background-color: #e2e5ea;
+    margin-top: 2px;
+    margin-left: 2px;
+
+}
+
+
+.circle-active {
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+    background-color: #2a5754;
+    margin-top: 2px;
+    margin-left: 2px;
+    color: white;
+}
+
+.circle-1 {
+    width: 23px;
+    height: 19px;
+    border-radius: 100%;
+    background-color: #e2e5ea;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.circle b {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.circle-active b {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.circle-1 b {
+    margin-left: 3px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.icon-active {
+    margin-top: 25px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.border {
+    border: solid #09535c;
+    width: 65px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 108px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    position: absolute;
+}
+
+.icon-active img {
+    width: 22px;
+    height: 22px;
+}
+
+.text-icon-box {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.icon-box-img img {
+    width: 25px;
+    height: 25px;
+    margin-top: 24px;
+    margin-left: 150px;
+}
+
+.message {
+    width: 360px;
+    height: 115px;
+    border: solid 1px #f0f1f4;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.message-2 {
+    width: 360px;
+    height: 115px;
+    background-color: #eef4f4;
+    border: solid 1px #f0f1f4;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.message-last {
+    width: 360px;
+    height: 115px;
+    border: solid 1px #f0f1f4;
+    border: none;
+}
+
+.blank-photo-chat {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #c7bdbd;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.box {
+    display: flex;
+}
+
+.profile-text {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.profile-text p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.message button {
+    width: 80px;
+    height: 20px;
+    background-color: #2e939d;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.message-last button {
+    width: 80px;
+    height: 20px;
+    background-color: #2e939d;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.message-2 button {
+    width: 80px;
+    height: 20px;
+    background-color: #2e939d;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.knopka {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.user-name {
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+}
+
+.user-name p {
+    margin: 0;
+
+}
+
+
+.mini-blank {
+    width: 20px;
+    height: 20px;
+    background-color: #c7bdbd;
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+button.orange {
+    background-color: coral;
+    width: 125px;
+    cursor: pointer;
+}
+
+button.cold {
+    background-color: #a6c5c8;
+    width: 100px;
+    cursor: pointer;
+}
+
+button.hot {
+    background-color: #fb900c;
+    cursor: pointer;
+}
+
+.chat {
+    width: 665px;
+    height: 936px;
+    border: solid 1px #f0f1f4;
+    border-top: none;
+    border-left: none;
+    margin-top: 4px;
+}
+
+.boxing {
+    display: flex;
+}
+
+.header-chat {
+    width: 665px;
+    height: 91.5px;
+    border: solid 1px #f0f1f4;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    display: flex;
+}
+
+img.threepoints {
+    width: 40px;
+    height: 25px;
+    margin-top: 32px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.apply {
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.apply p {
+    margin: 0;
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+button.profile {
+    margin-top: 28px;
+    width: 190px;
+    height: 38px;
+    margin-left: 65px;
+    border: solid 2px #f3f3f3;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+}
+
+button.profile img {
+    width: 12px;
+    height: 12px;
+    margin-top: 11px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+button.profile b {
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.photo-ava {
+    width: 20px;
+    height: 20px;
+    background-color: #c7bdbd;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 6.5px;
+}
+
+.ava-chat {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    background-color: #c7bdbd;
+    margin-top: 45px;
+    margin-left: 295px;
+}
+
+.user-name-main {
+    margin-left: 238px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.zillow {
+    display: flex;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+p.link {
+    color: #8deff2;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.amazon {
+    font-size: 11px;
+    margin-left: 168px;
+    margin-top: 25px;
+}
+
+.today {
+    display: flex;
+}
+
+.line {
+    width: 235px;
+    border: solid 0.1px #f3f3f3;
+    margin-top: 62px;
+    margin-left: 30px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.line-2 {
+    width: 235px;
+    border: solid 0.1px #f3f3f3;
+    margin-top: 62px;
+    margin-left: 24px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+button.tooday {
+    width: 90px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 23px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f6f4;
+    color: #6d7275;
+    cursor: pointer;
+}
+
+.tooday img {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.name {
+    margin-top: 35px;
+    font-size: 11px;
+    color: #858a8d;
+    margin-left: 75px;
+}
+
+.nicholas {
+    display: flex;
+}
+
+.ava {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #c7bdbd;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.sms {
+    width: 360px;
+    height: 40px;
+    background-color: white;
+    border: solid 2px #efefef;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.sms-2 {
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    border: solid 2px #efefef;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    margin-top: 8px;
+    margin-left: 75px;
+}
+
+.sms p {
+    font-size: 13px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.sms-2 p {
+    font-size: 13px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.clock {
+    margin-left: 80px;
+    margin-top: 8px;
+}
+
+.clock p {
+    margin: 0;
+    font-size: 10px;
+    color: #9b9fa0;
+}
+
+.text-message {
+    font-size: 12px;
+    display: flex;
+    margin-left: 210px;
+    margin-top: 35px;
+}
+
+.text-message p {
+    margin: 0;
+    color: #3e4241;
+
+}
+
+p.bold {
+    font-weight: bold;
+    margin-left: 3px;
+    color: #3e4241;
+}
+
+/**/
+
+.q-name {
+    margin-top: 35px;
+    font-size: 11px;
+    color: #858a8d;
+    margin-left: 512px;
+}
+
+.q-nicholas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.q-ava {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #c7bdbd;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.q-sms {
+    width: 210px;
+    height: 40px;
+    background-color: #f3f3f3;
+    border: solid 2px #efefef;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.q-sms-2 {
+    width: 350px;
+    height: 40px;
+    background-color: #f3f3f3;
+    border: solid 2px #efefef;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    margin-top: 8px;
+    margin-left: 248px;
+}
+
+.q-sms p {
+    font-size: 13px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.q-sms-2 p {
+    font-size: 13px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.q-clock {
+    margin-left: 557px;
+    margin-top: 8px;
+}
+
+.q-clock p {
+    margin: 0;
+    font-size: 10px;
+    color: #9b9fa0;
+}
+
+.q-text-message {
+    font-size: 12px;
+    display: flex;
+    margin-left: 210px;
+    margin-top: 35px;
+}
+
+.q-text-message p {
+    margin: 0;
+    color: #3e4241;
+
+}
+
+.send {
+    width: 610px;
+    height: 55px;
+    background-color: white;
+    border: solid 2px #f3f3f3;
+    border-radius: 40px;
+    margin-top: 32px;
+    margin-left: 25px;
+    display: flex;
+}
+
+input.main {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    padding-right: 120px;
+    background-color: white;
+    margin-top: 8px;
+
+}
+
+.send img {
+    width: 20px;
+    height: 20px;
+}
+
+.clip   {
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.send b {
+    color: #666b6e;
+    margin-top: 18px;
+}
+
+b.a {
+    margin-left: 10px;
+}
+
+button.sending {
+    width: 60px;
+    height: 40px;
+    border: none;
+    background-color: #2ec5ce;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+button.sending img {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.info {
+    width: 317px;
+    height: 886px;
+    border: solid 1px #f3f3f3;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.num {
+    display: flex;
+    margin-left: 30px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.left {
+    margin-left: 105px;
+}
+
+p.left {
+    color: #7a7f82;
+}
+
+.black {
+    color: black;
+}
+
+.blanki {
+    margin-left: 12px;
+    display: flex;
+}
+
+.blanki-name {
+    margin-top: 29.5px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.knopka-2 button {
+    width: 80px;
+    height: 20px;
+    background-color: #2e939d;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 32px;
+    cursor: pointer;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.view {
+    color: #2ec5ce;
+    margin-left: 65px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.border-info {
+    width: 250px;
+    border:  solid 1px #f3f3f3;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.email-ava {
+    display: flex;
+}
+
+.email-ava-1 {
+    border-radius: 100%;
+    background-color: #f4f6f5;
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.email-ava-1 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.email {
+    margin-top: 35px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+b.mail-main {
+    color: #afb4ba;
+}
+
+.mail {
+    margin-top: 5px;
+    color: #4b4f52;
+    font-weight: 500;
+}
+
+/**/
+
+.email-ava-clon {
+    display: flex;
+}
+
+.email-ava-1-clon {
+    border-radius: 100%;
+    background-color: #f4f6f5;
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.email-clon {
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.email-ava-1-clon img {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+
+img.clon {
+    margin-left: 8px;
+}
+
+.connection {
+    width: 318px;
+    height: 270px;
+    border-bottom: solid 1px #f3f3f3;
+}
+
+.custom {
+    width: 318px;
+    height: auto;
+    border-bottom: solid 1px #f3f3f3;
+}
+
+.header-inner-custom {
+    margin-left: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.header-inner-custom img {
+    width: 15px;
+    height: 15px;
+    margin-right: 25px;
+    margin-top: 4px;
+}
+
+.punktir {
+    border-left: 2px dashed #f3f3f3;
+    height: 60px;
+    margin-left: 47.5px;
+}
+
+.email-ava-1-custom {
+    border-radius: 100%;
+    background-color: #f4f6f5;
+    width: 35px;
+    height: 35px;
+    margin-left: 31.5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.email-ava-1-custom-2 {
+    border-radius: 100%;
+    background-color: #f4f6f5;
+    width: 35px;
+    height: 35px;
+    margin-left: 31.5px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+img.sen {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.lease {
+    display: flex;
+}
+
+.text-custom {
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #4b4f52;
+}
+
+.text-custom b {
+    font-size: 15px;
+}
+
+.text-custom p {
+    font-size: 14px;
+}
+
+b.view-all {
+    color: #2ec5ce;
+    font-size: 14px;
+}
+
+.last-block {
+    border-bottom: solid 1px #f3f3f3;
+    width: 318px;
+    height: 183px;
+}
+
+.last-text {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.last-text img {
+    width: 15px;
+    height: 15px;
+    margin-right: 25px;
+    margin-top: 4px;
+}
+
+.last-image {
+    width: 86px;
+    height: 86px;
+    background-color: #c7bdbd;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.last-image-1 {
+    width: 86px;
+    height: 86px;
+    background-color: #c7bdbd;
+    border-radius: 8px;
+    margin-left: 28px;
+    margin-top: 20px;
+}
+
+.arrowrightdiv {
+
+}
+
+.arrowright {
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+}
+
+.knopka-2 {
+    display: flex;
+}
+
+.lastblock {
+    display: flex;
+}
+
+
+
